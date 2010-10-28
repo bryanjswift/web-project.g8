@@ -1,5 +1,6 @@
 import sbt._
 
 class Plugins(info: ProjectInfo) extends PluginDefinition(info) {
-  // remove this file if your template doesn't have default plugins
+  val codaRepo = "Coda Hale's Repository" at "http://repo.codahale.com/"
+  val assembly = "com.codahale" % "assembly-sbt" % "0.1"
 }
