@@ -26,6 +26,11 @@ Assuming g8 is installed:
     mv gitignore .gitignore
     sbt update
 
+Move `VelocityLog.scala` into a package and update `src/main/resources/velocity/velocity.properties`
+with the appropriate location of `VelocityLog`.
+
+### More Information
+
 If g8 is not installed please see [readme for g8](http://github.com/n8han/giter8#readme)
 
 [coda]:http://github.com/codahale
