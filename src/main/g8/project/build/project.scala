@@ -1,6 +1,6 @@
 import sbt._
 
-class MyProject(info: ProjectInfo) extends DefaultWebProject(info) with assembly.AssemblyBuilder {
+class $sbt_project_name$Project(info: ProjectInfo) extends DefaultWebProject(info) with assembly.AssemblyBuilder {
   // repository locations (for Jersey)
   val javaNet = "Java.net Repository for Maven" at "http://download.java.net/maven/2/"
   val codaRepo = "Coda Hale's Repository" at "http://repo.codahale.com/"
