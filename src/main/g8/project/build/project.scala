@@ -5,9 +5,9 @@ class MyProject(info: ProjectInfo) extends DefaultWebProject(info) assembly.Asse
   val javaNet = "Java.net Repository for Maven" at "http://download.java.net/maven/2/"
 
   // Jersey
-  val jersey = "com.sun.jersey" % "jersey-server" % "1.1.2-ea"
+  val jersey = "com.sun.jersey" % "jersey-server" % "1.4"
   // Velocity
-  val velocity = "org.apache.velocity" % "velocity" % "1.6.2"
+  val velocity = "org.apache.velocity" % "velocity" % "1.6.4"
   val simpleVelocity = "bryanjswift" % "simple-velocity" % "0.3.0" from "http://github.com/downloads/bryanjswift/simple-velocity/simple-velocity_2.8.0-0.3.0.jar"
 
   // Jetty
