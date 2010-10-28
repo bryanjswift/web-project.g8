@@ -12,9 +12,9 @@ class $sbt_project_name$Project(info: ProjectInfo) extends DefaultWebProject(inf
   // Velocity
   val velocity = "org.apache.velocity" % "velocity" % "1.6.4"
   val simpleVelocity = "bryanjswift" % "simple-velocity" % "0.3.0" from "http://github.com/downloads/bryanjswift/simple-velocity/simple-velocity_2.8.0-0.3.0.jar"
-
   // Jetty
-  val jetty6 = "org.mortbay.jetty" % "jetty" % "6.1.25" % "test->default"
+  val jetty6 = "org.mortbay.jetty" % "jetty" % "6.1.25"
+
   // ScalaTest
   val scalaTest = "org.scalatest" % "scalatest" % "1.2" % "test->default"
 
