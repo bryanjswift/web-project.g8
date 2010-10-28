@@ -13,7 +13,9 @@ The web project includes references to [Jersey 1.4](https://jersey.dev.java.net/
 [simple-velocity 0.3.0](http://github.com/bryanjswift/simple-velocity). Additionally,
 Jetty 6.1.26 and [ScalaTest 1.2](http://www.scalatest.org/) are included for testing.
 
-[coda]:http://github.com/codahale
+## Configuration
+
+Uses [codahale][coda]'s [fig](http://github.com/codahale/fig) project for configuration.
 
 ## Install
 
@@ -25,3 +27,5 @@ Assuming g8 is installed:
     sbt update
 
 If g8 is not installed please see [readme for g8](http://github.com/n8han/giter8#readme)
+
+[coda]:http://github.com/codahale

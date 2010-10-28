@@ -3,7 +3,10 @@ import sbt._
 class MyProject(info: ProjectInfo) extends DefaultWebProject(info) assembly.AssemblyBuilder {
   // repository locations (for Jersey)
   val javaNet = "Java.net Repository for Maven" at "http://download.java.net/maven/2/"
+  val codaRepo = "Coda Hale's Repository" at "http://repo.codahale.com/"
 
+  // Fig - for configuration
+  val fig = "com.codahale" %% "fig" % "1.0.5"
   // Jersey
   val jersey = "com.sun.jersey" % "jersey-server" % "1.4"
   // Velocity
