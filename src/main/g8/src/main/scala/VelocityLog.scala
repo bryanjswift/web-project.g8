@@ -1,4 +1,4 @@
-package project
+package $organization$
 
 import net.lag.logging.Logger
 import org.apache.velocity.runtime.{RuntimeServices => Services}
