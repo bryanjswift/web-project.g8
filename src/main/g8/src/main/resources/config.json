@@ -1,7 +1,11 @@
 {
   // General configuration stuff goes in here
-  http: {
-    port: 8080
-    host: "localhost"
+  "webapp": {
+    "path": "src/main/webapp",
+    "context": "/"
+  },
+  "http": {
+    "port": 8080,
+    "host": "localhost"
   }
 }
