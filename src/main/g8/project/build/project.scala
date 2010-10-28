@@ -11,7 +11,7 @@ class MyProject(info: ProjectInfo) extends DefaultWebProject(info) assembly.Asse
   val simpleVelocity = "bryanjswift" % "simple-velocity" % "0.3.0" from "http://github.com/downloads/bryanjswift/simple-velocity/simple-velocity_2.8.0-0.3.0.jar"
 
   // Jetty
-  val jetty6 = "org.mortbay.jetty" % "jetty" % "6.1.14" % "test->default"
+  val jetty6 = "org.mortbay.jetty" % "jetty" % "6.1.26" % "test->default"
   // ScalaTest
   val scalaTest = "org.scalatest" % "scalatest" % "1.2" % "test->default"
 
